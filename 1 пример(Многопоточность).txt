@@ -3,7 +3,7 @@ using System;
 
 class Program
 {
-    //1 пример с многопоточным программированием
+    
     static void Main(string[] args)
     {
         
@@ -12,7 +12,7 @@ class Program
 
         for (int i = 1; i < 9; i++)
         {
-            Console.WriteLine("Главный поток:");
+            Console.WriteLine("ГѓГ«Г ГўГ­Г»Г© ГЇГ®ГІГ®ГЄ:");
             Console.WriteLine(i * i);
             Thread.Sleep(300);
         }
@@ -24,7 +24,7 @@ class Program
     {
         for (int i = 1; i < 9; i++)
         {
-            Console.WriteLine("Второй поток:");
+            Console.WriteLine("Г‚ГІГ®Г°Г®Г© ГЇГ®ГІГ®ГЄ:");
             Console.WriteLine(i * i);
             Thread.Sleep(400);
         }
